@@ -1,3 +1,4 @@
+require('dotenv').config();
 const Sequelize = require('sequelize');
 
 // Create a connection object
@@ -9,7 +10,7 @@ const sequelize = new Sequelize(
     // Database location
     host: 'localhost',
     dialect: 'mysql',
-    port: 3306
+    port: 3001
   }
 );
 
