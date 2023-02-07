@@ -28,7 +28,7 @@ router.get('/:id', async (req, res) => {
     ]
   });
 
-  return res,json(singleProduct);
+  return res.json(singleProduct);
 });
 
 // create new product
@@ -107,6 +107,15 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
+  Product.destroy({
+    where: {
+      id: req.params.id
+    },
+  })
+    .then((deleted) => {
+      res.json(deleted);
+    })
+    .catch((err) => res.json(err));
 });
 
 module.exports = router;
