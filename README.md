@@ -2,15 +2,15 @@
 
 ## Description
 
-This is used to keep track of stock for an online store.
+This program is used to keep track of stock for an online store.
 
 There is no front end associated with this program, but it shows the database and the various routes that have been setup to allow the management of products, categories, and tags.
 
-[This is Google Drive link for the video of the application being used](https://drive.google.com/file/d/1xAcuoZgg-Ex5VrG4DDWnI0mv7WMd5Qsw/view)
+[Here is Google Drive link for the video of the application being used](https://drive.google.com/file/d/1xAcuoZgg-Ex5VrG4DDWnI0mv7WMd5Qsw/view)
 
 ## Tasks
 
-For this project, I was provide with quite a bit of starter code. My main tasks were to create the models and routes.
+For this project, I was provided with quite a bit of starter code. My main tasks were to create the models and routes.
 
 ## What I Learned
 
